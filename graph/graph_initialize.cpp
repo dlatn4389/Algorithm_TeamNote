@@ -40,6 +40,7 @@ void print();
 
 int main() {
   initialize_graph();
+  // print();
 }
 
 void print() {
