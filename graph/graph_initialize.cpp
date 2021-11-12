@@ -21,6 +21,8 @@ void initialize_graph() {
   for (int i=1; i<n+1; i++) {
     for (int j=1; j<n+1; j++) {
       graph[i][j] = INFINITY;
+      // If necessary, activate the code below.
+      // if (i==j) graph[i][j] = 0;
     }
   }
 
