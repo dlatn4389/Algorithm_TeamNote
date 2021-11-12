@@ -11,7 +11,7 @@ const int INFINITY = 123456789;
 const int max_node = 10001;
 int graph[max_node][max_node];
 
-// n is number of edge, m is number of edge
+// n is number of node, m is number of edge
 int n, m;
 
 void initialize_graph() {
