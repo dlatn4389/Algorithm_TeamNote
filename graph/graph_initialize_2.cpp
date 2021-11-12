@@ -12,7 +12,7 @@ const int max_node = 10001;
 // pair.first -> toNode, pair.second -> distance
 vector<pair<int, int>> graph[max_node];
 
-// n is number of edge, m is number of edge
+// n is number of node, m is number of edge
 int n, m;
 
 void initialize_graph() {
